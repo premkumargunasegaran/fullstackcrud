@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
 
         <Route path="create" element={<Create />} />
-        <Route path="update" element={<Update />} />
+        <Route path="update/:id" element={<Update />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
